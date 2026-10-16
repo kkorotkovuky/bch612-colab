@@ -41,4 +41,5 @@ and Ligabue-Braun, *J Chem Inf Model* 61:4852-4856, 2021,
 
 Hollingsworth SA and Dror RO, Molecular Dynamics Simulation for All, *Neuron* 99:1129-1143,
 2018, [doi:10.1016/j.neuron.2018.08.011](https://doi.org/10.1016/j.neuron.2018.08.011).
-Free full text: [PMC6209097](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6209097/).
+Free to read at the publisher under Elsevier's open-archive licence, and in PubMed Central as
+[PMC6209097](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6209097/).
