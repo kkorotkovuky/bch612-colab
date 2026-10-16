@@ -28,7 +28,7 @@ Colab runtime; the original notebook does not.
 ## Part 2: molecular dynamics
 
 Upload the PDB file from Part 1. The notebook adds hydrogens, solvates the peptide in water
-with 0.15 M NaCl, minimises, equilibrates with the backbone restrained, and runs unrestrained
+with 0.15 M NaCl, minimizes, equilibrates with the backbone restrained, and runs unrestrained
 dynamics at 300 K and 1 bar. It then plots RMSD from the AlphaFold model, secondary structure
 against time, a per-residue DSSP map, and per-residue fluctuation against pLDDT.
 
