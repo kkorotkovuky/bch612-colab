@@ -19,6 +19,10 @@ can be judged directly. Use `/` to separate chains. Ticking **cyclic_peptide** f
 sequence as a macrocycle by replacing AlphaFold's relative-position encoding with a cyclic
 one; no bond is added, and D-amino acids and N-methylation cannot be represented.
 
+Cysteine pairs whose SG atoms fall within 3 Å are written out as standard SSBOND records and
+reported in the output. AlphaFold tends to draw these contacts too short, around 1.2 to 1.6 Å;
+the energy minimisation at the start of Part 2 relaxes them to the usual 2.05 Å.
+
 The exercise was designed by Sergey Ovchinnikov
 ([af_backprop](https://github.com/sokrypton/af_backprop)). This version runs the same model,
 AlphaFold2 `model_3_ptm` with no MSA and no templates, through
@@ -28,7 +32,7 @@ Colab runtime; the original notebook does not.
 ## Part 2: molecular dynamics
 
 Upload the PDB file from Part 1. The notebook adds hydrogens, solvates the peptide in water
-with 0.15 M NaCl, minimizes, equilibrates with the backbone restrained, and runs unrestrained
+with 0.15 M NaCl, minimises, equilibrates with the backbone restrained, and runs unrestrained
 dynamics at 300 K and 1 bar. It then plots RMSD from the AlphaFold model, secondary structure
 against time, a per-residue DSSP map, and per-residue fluctuation against pLDDT.
 
