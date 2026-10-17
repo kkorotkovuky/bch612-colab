@@ -15,7 +15,7 @@ Part 1 writes a PDB file; Part 2 takes that file as its input.
 
 Type an amino acid sequence, press play, and inspect the model, the mean pLDDT and the
 confidence plots. Hydrophobic side chains are drawn with yellow carbons, so a buried core
-can be judged directly. Use `/` to separate chains. Checking **cyclic_peptide** folds the
+can be evaluated directly. Use `/` to separate chains. Checking **cyclic_peptide** folds the
 sequence as a macrocycle by replacing AlphaFold's relative-position encoding with a cyclic
 one; no bond is added, and D-amino acids and N-methylation cannot be represented.
 
