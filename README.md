@@ -29,7 +29,7 @@ AlphaFold2 `model_3_ptm` with no MSA and no templates, through
 [ColabDesign](https://github.com/sokrypton/ColabDesign), so that it works on the current
 Colab runtime; the original notebook does not.
 
-## Part 2: molecular dynamics
+## Part 2: Molecular dynamics
 
 Upload the PDB file from Part 1. The notebook adds hydrogens, solvates the peptide in water
 with 0.15 M NaCl, minimizes, equilibrates with the backbone restrained, and runs unrestrained
