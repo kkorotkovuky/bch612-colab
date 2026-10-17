@@ -61,7 +61,7 @@ definitions; on the worked example they agree with DockQ 2.1.3 and US-align to w
 
 The worked example is NorM from *Vibrio cholerae* with the nanobody Nb17_4, compared with the
 cryo-EM structure 7PHP (Bloch *et al.*, *Proc Natl Acad Sci USA* 118:e2115435118, 2021). The six
-AlphaFold Server jobs are attached to the
+AlphaFold Server jobs will be attached to the
 [norm-demo-v1 release](https://github.com/kkorotkovuky/bch612-colab/releases/tag/norm-demo-v1)
-as unmodified downloads; they are subject to the AlphaFold Server Output Terms of Use included in
-each zip.
+as unmodified downloads, subject to the AlphaFold Server Output Terms of Use included in each zip.
+Until they are, the demo option in Step 2 will fail; untick `use_demo_data` and upload your own zips.
