@@ -64,4 +64,4 @@ cryo-EM structure 7PHP (Bloch *et al.*, *Proc Natl Acad Sci USA* 118:e2115435118
 AlphaFold Server jobs will be attached to the
 [norm-demo-v1 release](https://github.com/kkorotkovuky/bch612-colab/releases/tag/norm-demo-v1)
 as unmodified downloads, subject to the AlphaFold Server Output Terms of Use included in each zip.
-Until they are, the demo option in Step 2 will fail; untick `use_demo_data` and upload your own zips.
+Until they are, the demo option in Step 2 will fail; uncheck `use_demo_data` and upload your own zips.
