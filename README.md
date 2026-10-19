@@ -43,7 +43,7 @@ Installation is pip only: OpenMM, PDBFixer and MDTraj. The approach follows
 and Ligabue-Braun, *J Chem Inf Model* 61:4852-4856, 2021,
 [doi:10.1021/acs.jcim.1c00998](https://doi.org/10.1021/acs.jcim.1c00998)).
 
-## AlphaFold 3 analysis
+## Part 3: AlphaFold3 analysis
 
 Upload AlphaFold Server downloads (one `.zip` per job) or a zipped local AlphaFold 3 output
 folder. The notebook lists every model with its seed and sample, shows where ipTM sits in the
